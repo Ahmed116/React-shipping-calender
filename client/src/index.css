@@ -1,0 +1,92 @@
+.container
+{
+   display: flex;
+   stop-opacity: inherit!important;
+  
+  
+}
+div.fc .fc-bg-event{
+opacity: 1.0 !important;
+}
+
+div.fc-highlight{
+  border: 2px red solid;
+  
+}
+
+
+.box-1{
+    flex:2;
+    order: 1;
+    margin: 15px;
+    border: 1px solid black;
+    padding: 15px;
+    font-weight: bold;
+
+   
+}
+.box-2{
+   flex: 1;
+   order: 2;
+   
+}
+
+
+.main-date{
+  text-align: justify;
+  display: block;
+
+}
+
+
+.date{
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color:  rgb(9, 91, 112);
+  
+}
+
+.date span{
+  height: 27px;
+    width: 55px;
+    display: block;
+    margin-right: 3px;
+}
+
+.date-standard{
+  background: #e17628;
+}
+
+.date-express{
+  background: #e8a771;
+}
+
+.date-overnight{
+  background: #56a2d6;
+}
+
+.date-saturday{
+  background: #074375;
+}
+
+.delivary-heading{
+  text-align: center;
+  font-style: italic;
+  color:darkred;
+}
+
+.box-2 p{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(9, 91, 112);
+  font-weight: bold;
+}
+
+
+.result{
+ 
+  margin-bottom: 20px;
+  font-weight: bold;
+  color:  rgb(9, 91, 112);
+}
+
