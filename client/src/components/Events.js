@@ -7,10 +7,14 @@ constructor(props) {
          
     }
     
+   
 }
 
-
+ 
     render(){
+      
+        
+
         return(
             <div className='box-2'>
                 <h2 className='delivary-heading'>DELIVERY DATE</h2>
@@ -28,12 +32,13 @@ constructor(props) {
             <br/>
             <br/>
             <hr/>
-        <div className='result'><span style={{background:this.props.selactabel.color, height: '27px',
-    width: '55px',
-    display: 'block',
-        marginRight: '3px'}}></span>{'You have selected'}{' '}{this.props.selactabel.title}{' '}{'Shipping'}{'-'}{this.props.selactabel.description}{' '}{'Your package will arrive on'}{' >>'}{this.props.selactabel.clicked}</div>
+        <div  className='result'> <span style={{background:this.props.selactabel.color}}></span> {this.props.selactabel.title}{' '}{this.props.selactabel.description}{' '} {this.props.selactabel.clicked}</div>
+              
 
             </div>
+            
         )
-    }
+        
 }
+}
+

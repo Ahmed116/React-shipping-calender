@@ -28,6 +28,9 @@ div.fc-highlight{
 .box-2{
    flex: 1;
    order: 2;
+   padding: 15px;
+   font-weight: bold;
+
    
 }
 
@@ -88,5 +91,14 @@ div.fc-highlight{
   margin-bottom: 20px;
   font-weight: bold;
   color:  rgb(9, 91, 112);
+  line-height:25px;
+  justify-content: center;
 }
 
+.result span{
+  height: 27px;
+    width: 55px;
+    display: inline-block;
+    margin-right: 3px;
+    margin-top: 20px;
+}
